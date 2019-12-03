@@ -90,7 +90,10 @@ Svelte [store](https://svelte.dev/docs#svelte_store) returned by the `buildForm`
 Returns the entry of the given `formControlName` of the form object.
 
 ##### `validate: () => void`
-Checks the validity of the form and updates the form object.
+Checks the validity of the form and updates the form object with the current form data.
+
+##### `clear: () => void`
+Clears the form object --undefines the values from each entry-- and invalidates each entry and the form. If you want to check if the form object is valid after clearing it, you will need to execute `validate`.
 
 ## Validators
 ### required
