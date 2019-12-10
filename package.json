@@ -1,0 +1,36 @@
+{
+  "name": "svelte-html5-validators",
+  "version": "0.1.0",
+  "description": "Simple library that adds validator attributes --required, min, maxlength...-- to form elements using Svelte.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepublish": "babel src -d lib"
+  },
+  "keywords": [
+    "svelte",
+    "forms",
+    "form",
+    "validations",
+    "validation",
+    "validators",
+    "validator",
+    "html5"
+  ],
+  "author": "Oriol Miro-Barcelo <omirobarcelo@gmail.com>",
+  "repository": "omirobarcelo/svelte-html5-validators",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "peerDependencies": {
+    "svelte": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
