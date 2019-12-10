@@ -2,9 +2,9 @@
 Simple library that adds validator attributes --required, min, maxlength...-- to form elements using Svelte. By directly adding these attributes to the form elements, the native HTML5 validation controls can be used. That includes the pseudo-classed `valid` and `invalid` to style form elements according to its validity status.
 
 ## Install
-`npm i -D svelte-html5-validators`  
+`npm i svelte-html5-validators`  
 or  
-`yarn add -D svelte-html5-validators`
+`yarn add svelte-html5-validators`
 
 ## How to use
 ```javascript
