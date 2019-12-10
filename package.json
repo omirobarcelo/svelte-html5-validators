@@ -1,6 +1,6 @@
 {
   "name": "svelte-html5-validators",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple library that adds validator attributes --required, min, maxlength...-- to form elements using Svelte.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
