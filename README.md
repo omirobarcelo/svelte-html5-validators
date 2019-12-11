@@ -4,7 +4,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/svelte-html5-validators)
 ![GitHub](https://img.shields.io/github/license/omirobarcelo/svelte-html5-validators)
 
-Simple library that adds validator attributes --required, min, maxlength...-- to form elements using Svelte. By directly adding these attributes to the form elements, the native HTML5 validation controls can be used. That includes the pseudo-classed `valid` and `invalid` to style form elements according to its validity status.
+Simple library that adds validator attributes --required, min, maxlength...-- to form elements using Svelte. By directly adding these attributes to the form elements, the native HTML5 validation controls can be used. That includes the pseudo-classes `valid` and `invalid` to style form elements according to its validity status.
 
 ## Install
 `npm i svelte-html5-validators`  
